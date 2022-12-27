@@ -8,7 +8,7 @@ The project is structured for PlatformIO and VS Code, using the excellent TFT_eS
 ledcSetup(backlightChannel, 100, 8);
 ledcAttachPin(23, backlightChannel);
 ```
-Where `backlightChannel` is a `uint8_t` between 0 and 3. This example sets the resolution to 8 bits and the frequency to 100. See [https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/api/ledc.html](https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/api/ledc.html) for more about LED Control.
+Where `backlightChannel` is a `uint8_t`. The number of LEDC channels varies between different ESP32 revisions, but the minimum appears to be 6. This example sets the resolution to 8 bits and the frequency to 100. See [https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/api/ledc.html](https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/api/ledc.html) for more about LED Control.
 
 ## Brightness
 ```
