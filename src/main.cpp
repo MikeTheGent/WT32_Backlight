@@ -54,7 +54,7 @@ void setup() {
     tft.setSwapBytes(true);
     tft.setTextColor(TFT_WHITE);
     tft.fillScreen(TFT_BLACK);
-    tft.drawCentreString("12.34", 160, 54, 6);
+    tft.drawString("Hello, world", 16, 16, 4);
 
     /*
     ** Attach LED Control channel to pin 23.
