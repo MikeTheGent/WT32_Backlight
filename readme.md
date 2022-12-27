@@ -1,5 +1,5 @@
 # WT32-SC01 Backlight Brightness
-This is a very simple project which shows the control of the WT32-SC01 backlight brightness. I couldn't find anything on-line which explained how to control the backlight and it took some trial and error to find the correct pin. I thjought I would try and save others the bother by sharing this example. 
+This is a very simple project which shows the control of the WT32-SC01 backlight brightness. I couldn't find anything on-line which explained how to control the backlight and it took some trial and error to find the correct pin. I thought I would try and save others the bother by sharing this example. 
 
 The project is structured for PlatformIO and VS Code, using the excellent TFT_eSPI library. The essential lines could easily be incorporated into another environment:
 
