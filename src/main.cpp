@@ -35,7 +35,7 @@ static uint32_t currentBrightness = 16;
 TFT_eSPI tft = TFT_eSPI();
 
 /*
-** Set te PWM duty cycle for the backlight.
+** Set the PWM duty cycle for the backlight.
 */
 
 static void setBrightness(uint32_t brightness) {
