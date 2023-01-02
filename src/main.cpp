@@ -32,7 +32,7 @@
 static const uint8_t backlightChannel = 1;
 static uint32_t currentBrightness = 16;
 
-TFT_eSPI tft = TFT_eSPI();
+static TFT_eSPI tft = TFT_eSPI();
 
 /*
 ** Set the PWM duty cycle for the backlight.
